@@ -1,0 +1,46 @@
+/*Header*/
+
+.header {
+    height: 93px;
+    padding: 26px 0;
+
+    .header-wrap {
+        max-width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto auto auto auto;
+        padding: 0 26px;
+    }
+
+    &__hamburger-wrap {
+        display: flex;
+    }
+
+    &__hamburger {
+        display: block;
+        margin: auto 0;
+    }
+
+    //&__logotype-wrap{}
+
+    //&__logotype{}
+
+    &__signin-wrap{
+        display: flex;
+
+        @media (max-width: 640px) {
+            display: none;
+        }
+    }
+
+    &__text-control {
+        display: block;
+        margin: auto 2.08vw auto 0;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px; 
+        color: #0B4A72;        
+    }
+}
